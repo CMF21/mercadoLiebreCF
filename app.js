@@ -6,7 +6,10 @@ const path = require('path')
 const app = express()
 
 //levanto el servidor  en el puerto 3001
-app.listen(3001,()=>console.log('Servidor corriendo en el puerto 3001'))
+//cambiando el puerto establecido por render:
+const port = process.env.PORT||3001
+//PORT guarda el puerto que utilice Render y en el caso contrario se utilizará nuestro puerto 3001.
+app.listen(port,()=>console.log(`Servidor corriendo en el puerto ${port}`))
 
 
 // defino la raiz/ de donde estoy parado, luego ./views...
