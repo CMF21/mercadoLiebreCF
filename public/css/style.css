@@ -18,7 +18,7 @@ body{
     font-size: 12px;
 }
 /*----------------------------------------------------*/
-header{/*esta*/
+header{
     background-color: var(--Amarillo);
     padding: 1rem;
 }
@@ -29,20 +29,20 @@ header{/*esta*/
     justify-content: space-around;
     gap: 5px;
 }
-.logo{/*esta*/
+.logo{
     width: 40%;
 }
-.search{/*esta*/
+.search{
     width: 50%;
     display: flex;
 }
-#barraBusqueda{/*esta*/
+#barraBusqueda{
     border: none;
     border-radius:5% 0% 0% 5% ;
     padding: 2px;
     width: 100%;
 }
-.boton-busqueda{/*esta*/
+.boton-busqueda{
     background-color: white;
     border: none;
     border-radius:0% 7% 7% 0%;
@@ -52,26 +52,26 @@ header{/*esta*/
     text-align: center;
     margin-block: 10px;
 }
-.burger-menu i{/*esta*/
+.burger-menu i{
     color: var(--Gris-claro);
     background-color: var(--Celeste);
     margin: 5px;
     padding: 7px;
     border-radius: 7px;
 }
-.burger-menu{/*esta*/
+.burger-menu{
     text-align: center;
 }
-.BarraDeNav{/*esta*/
+.BarraDeNav{
     display: flex;
     align-items: center;
     justify-content: space-between;  
 }
-#opciones{/*esta*/
+#opciones{
     list-style: none;
     display: none;
 }
-a{ /*esta*/
+a{
     text-decoration: none;
     color: black;
 }
@@ -80,12 +80,12 @@ a{ /*esta*/
     display: flex;
 }
 /*---------------------------------------------*/
-main{/*esta*/
+main{
     background-color: var(--Gris-claro);
     padding: 20px;
     /*min-height: 70vh;*/
 }
-article{ /*esta*/
+article{ 
     background-color: var(--Gris-claro);
     margin-bottom: 10px;
     width: 100%;
@@ -103,31 +103,31 @@ article img{
     padding:5px 5px 0px 5px;
     height: auto;
 }
-.ultimaVista{ /*esta*/
+.ultimaVista{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* gap: 10px;*/
 }
-.ofertas{ /*esta*/
+.ofertas{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* gap: 10px;*/
 }
-.titulares{/*esta*/
+.titulares{
     font-size: 25px;
     padding: 10px ;
     color: var(--Gris-oscuro);
 }
-.precio{ /*esta*/
+.precio{ 
     font-size: 18px;
 }
-.descuento{ /*esta*/
+.descuento{ 
     font-size: 14px;
     color: var(--Verde);
 }
-.desc{ /*ESTA*/
+.desc{ 
     display: flex;
     gap: 5px;
     /*justify-content: space-between;center*/
@@ -137,14 +137,14 @@ article img{
     color: var(--Gris-oscuro);
     display: none;
 }
-.infoProducto{/*esta*/
+.infoProducto{
     border-top: 1px solid #ebebeb;
     padding:15px;
     margin: 0px 5px;/*sacarlo si la im se hace mas grande (padding img)*/
     background-color: white;
     position: relative;
 }
-#camion{/*esta*/
+#camion{
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -159,16 +159,16 @@ article img{
     top: -15px;
     transition: .60s;
 }
-#camion:hover{/*esta*/
+#camion:hover{
     rotate: -90deg;
 }
 /*---------------------------------*/
-footer{ /*esta*/
+footer{ 
     text-align: center;
     padding: 10px;
     background-color: white;
 }
-footer i{ /*esta*/
+footer i{ 
     color: var(--Celeste);
     font-size: 25px;
     margin-top: 20px;
@@ -211,10 +211,10 @@ footer h3, footer p{
     .encabezado1{
         justify-content: space-around; 
     }  
-    .burger-menu{/*esta*/
+    .burger-menu{
         display: none;
     }
-    .logo{/*esta*/
+    .logo{
         width: 30%;
     }
     .search{
@@ -223,7 +223,7 @@ footer h3, footer p{
     #barraBusqueda{
         width: 100%;
     }
-    .forma-compra{/*esta*/
+    .forma-compra{
         width: 35%;
         padding: 2px;
     }
@@ -236,7 +236,7 @@ footer h3, footer p{
         display: flex;
         justify-content:space-between ;
     }
-    #opciones{/*esta*/
+    #opciones{
         gap:15px;
         display: flex;   
     }
